@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADmyBRAND AI Suite - Transform Your Marketing with AI</title>
+    <meta name="description" content="AI-powered marketing tool that helps businesses automate campaigns, create content, and analyze performance 10x faster.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Progress Bar -->
+    <div id="scroll-progress" class="scroll-progress"></div>
+
+    <!-- Navigation -->
+    <nav class="nav-container">
+        <div class="nav-content">
+            <div class="nav-brand">
+                <h2>ADmyBRAND AI</h2>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#testimonials">Reviews</a>
+                <a href="#faq">FAQ</a>
+                <button class="btn btn--primary nav-cta">Start Free Trial</button>
+            </div>
+            <button class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg">
+            <div class="floating-card card-1"></div>
+            <div class="floating-card card-2"></div>
+            <div class="floating-card card-3"></div>
+            <div class="floating-card card-4"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title animate-in">Transform Your Marketing with <span class="gradient-text">AI-Powered Precision</span></h1>
+                <p class="hero-subtitle animate-in">ADmyBRAND AI Suite helps businesses generate better content, automate campaigns, and analyze performance 10x faster than traditional methods</p>
+                <div class="hero-ctas animate-in">
+                    <button class="btn btn--primary btn--lg">Start Free Trial</button>
+                    <button class="btn btn--outline btn--lg" id="watch-demo">
+                        <span>▶</span>
+                        Watch Demo
+                    </button>
+                </div>
+                <div class="hero-stats animate-in">
+                    <div class="stat">
+                        <div class="stat-number">10x</div>
+                        <div class="stat-label">Faster Content Creation</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">300%</div>
+                        <div class="stat-label">Increased ROI</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Platform Integrations</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title animate-in">Powerful Features for Modern Marketing</h2>
+                <p class="section-subtitle animate-in">Everything you need to supercharge your marketing efforts with AI</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card glass-card animate-in">
+                    <div class="feature-icon">✨</div>
+                    <h3 class="feature-title">AI Content Generator</h3>
+                    <p class="feature-description">Create blog posts, social media content, and ad copy in seconds using advanced AI that understands your brand voice and audience.</p>
+                    <div class="feature-hover-effect"></div>
+                </div>
+                <div class="feature-card glass-card animate-in">
+                    <div class="feature-icon">🚀</div>
+                    <h3 class="feature-title">Smart Campaign Automation</h3>
+                    <p class="feature-description">Set up and manage campaigns across multiple platforms automatically with intelligent optimization and scheduling.</p>
+                    <div class="feature-hover-effect"></div>
+                </div>
+                <div class="feature-card glass-card animate-in">
+                    <div class="feature-icon">📊</div>
+                    <h3 class="feature-title">Advanced Analytics Dashboard</h3>
+                    <p class="feature-description">Get deep insights into campaign performance, ROI, and customer behavior with real-time data visualization.</p>
+                    <div class="feature-hover-effect"></div>
+                </div>
+                <div class="feature-card glass-card animate-in">
+                    <div class="feature-icon">🎯</div>
+                    <h3 class="feature-title">Brand Voice Consistency</h3>
+                    <p class="feature-description">Maintain consistent messaging across all marketing channels with AI-powered brand voice analysis and suggestions.</p>
+                    <div class="feature-hover-effect"></div>
+                </div>
+                <div class="feature-card glass-card animate-in">
+                    <div class="feature-icon">🔗</div>
+                    <h3 class="feature-title">Multi-Platform Integration</h3>
+                    <p class="feature-description">Connect seamlessly with 50+ marketing tools and platforms including Google Ads, Facebook, LinkedIn, and more.</p>
+                    <div class="feature-hover-effect"></div>
+                </div>
+                <div class="feature-card glass-card animate-in">
+                    <div class="feature-icon">👥</div>
+                    <h3 class="feature-title">Real-time Collaboration</h3>
+                    <p class="feature-description">Work with your team in real-time on marketing projects with built-in collaboration tools and approval workflows.</p>
+                    <div class="feature-hover-effect"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title animate-in">Choose Your Plan</h2>
+                <p class="section-subtitle animate-in">Start free and scale as you grow</p>
+                <div class="billing-toggle animate-in">
+                    <span class="billing-label">Monthly</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="billing-toggle">
+                        <span class="toggle-slider"></span>
+                    </label>
+                    <span class="billing-label">Yearly <span class="discount-badge">20% off</span></span>
+                </div>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card glass-card animate-in">
+                    <div class="pricing-header">
+                        <h3 class="pricing-title">Starter</h3>
+                        <div class="pricing-price">
+                            <span class="price-amount" data-monthly="29" data-yearly="23">$29</span>
+                            <span class="price-period">/month</span>
+                        </div>
+                        <p class="pricing-description">Perfect for small businesses and startups</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ AI Content Generator (50 pieces/month)</li>
+                        <li>✓ Basic Analytics Dashboard</li>
+                        <li>✓ 5 Platform Integrations</li>
+                        <li>✓ Email Support</li>
+                        <li>✓ Brand Voice Training</li>
+                        <li>✓ 1 User Account</li>
+                    </ul>
+                    <button class="btn btn--outline btn--full-width pricing-cta">Start Free Trial</button>
+                </div>
+                
+                <div class="pricing-card glass-card popular animate-in">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3 class="pricing-title">Professional</h3>
+                        <div class="pricing-price">
+                            <span class="price-amount" data-monthly="79" data-yearly="63">$79</span>
+                            <span class="price-period">/month</span>
+                        </div>
+                        <p class="pricing-description">For growing teams and agencies</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ Unlimited AI Content Generation</li>
+                        <li>✓ Advanced Analytics & Reporting</li>
+                        <li>✓ All Platform Integrations (50+)</li>
+                        <li>✓ Priority Support + Live Chat</li>
+                        <li>✓ Advanced Brand Voice Controls</li>
+                        <li>✓ Up to 10 User Accounts</li>
+                        <li>✓ Campaign Automation</li>
+                        <li>✓ Custom Templates</li>
+                    </ul>
+                    <button class="btn btn--primary btn--full-width pricing-cta">Start Free Trial</button>
+                </div>
+                
+                <div class="pricing-card glass-card animate-in">
+                    <div class="pricing-header">
+                        <h3 class="pricing-title">Enterprise</h3>
+                        <div class="pricing-price">
+                            <span class="price-amount">Custom</span>
+                            <span class="price-period">pricing</span>
+                        </div>
+                        <p class="pricing-description">For large organizations with custom needs</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ Everything in Professional</li>
+                        <li>✓ White-label Solution</li>
+                        <li>✓ Dedicated Account Manager</li>
+                        <li>✓ Custom Integrations & API Access</li>
+                        <li>✓ Advanced Security & Compliance</li>
+                        <li>✓ Unlimited User Accounts</li>
+                        <li>✓ Custom AI Model Training</li>
+                        <li>✓ 24/7 Phone Support</li>
+                    </ul>
+                    <button class="btn btn--outline btn--full-width pricing-cta">Contact Sales</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title animate-in">Trusted by 10,000+ Marketing Teams</h2>
+                <p class="section-subtitle animate-in">See what our customers are saying</p>
+            </div>
+            <div class="testimonials-carousel">
+                <div class="testimonial-track" id="testimonial-track">
+                    <div class="testimonial-card glass-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-quote">"ADmyBRAND AI Suite transformed our content creation process. We're producing 300% more content in half the time."</p>
+                        <div class="testimonial-author">
+                            <img src="/api/placeholder/60/60" alt="Sarah Chen" class="author-avatar">
+                            <div class="author-info">
+                                <div class="author-name">Sarah Chen</div>
+                                <div class="author-title">Marketing Director, TechFlow Inc.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card glass-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-quote">"The AI-powered analytics gave us insights we never had before. Our ROI improved by 150% in just 3 months."</p>
+                        <div class="testimonial-author">
+                            <img src="/api/placeholder/60/60" alt="Marcus Rodriguez" class="author-avatar">
+                            <div class="author-info">
+                                <div class="author-name">Marcus Rodriguez</div>
+                                <div class="author-title">CMO, GrowthLabs</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card glass-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-quote">"As a small team, we needed automation that works. ADmyBRAND AI Suite handles our entire marketing workflow seamlessly."</p>
+                        <div class="testimonial-author">
+                            <img src="/api/placeholder/60/60" alt="Emily Watson" class="author-avatar">
+                            <div class="author-info">
+                                <div class="author-name">Emily Watson</div>
+                                <div class="author-title">Founder, StartupBoost</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card glass-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-quote">"The brand voice consistency feature is game-changing. All our content sounds perfectly on-brand across every channel."</p>
+                        <div class="testimonial-author">
+                            <img src="/api/placeholder/60/60" alt="David Park" class="author-avatar">
+                            <div class="author-info">
+                                <div class="author-name">David Park</div>
+                                <div class="author-title">Marketing Manager, InnovateCorp</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card glass-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-quote">"Integration with our existing tools was seamless. The platform pays for itself within the first month."</p>
+                        <div class="testimonial-author">
+                            <img src="/api/placeholder/60/60" alt="Lisa Thompson" class="author-avatar">
+                            <div class="author-info">
+                                <div class="author-name">Lisa Thompson</div>
+                                <div class="author-title">Digital Marketing Lead, ScaleUp Solutions</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-controls">
+                    <button class="carousel-btn prev" id="prev-btn">‹</button>
+                    <div class="carousel-dots" id="carousel-dots"></div>
+                    <button class="carousel-btn next" id="next-btn">›</button>
+                </div>
+            </div>
+            
+            <!-- Company Logos -->
+            <div class="company-logos animate-in">
+                <h4>Trusted by leading companies</h4>
+                <div class="logos-grid">
+                    <div class="logo-item">TechFlow Inc.</div>
+                    <div class="logo-item">GrowthLabs</div>
+                    <div class="logo-item">StartupBoost</div>
+                    <div class="logo-item">InnovateCorp</div>
+                    <div class="logo-item">ScaleUp Solutions</div>
+                    <div class="logo-item">Digital Dynamics</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title animate-in">Frequently Asked Questions</h2>
+                <p class="section-subtitle animate-in">Everything you need to know about ADmyBRAND AI Suite</p>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item animate-in">
+                    <button class="faq-question">
+                        <span>How does the AI content generator work?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Our AI content generator uses advanced language models trained on marketing best practices and your specific brand voice. Simply input your topic, target audience, and content type, and the AI will create high-quality, on-brand content in seconds.</p>
+                    </div>
+                </div>
+                <div class="faq-item animate-in">
+                    <button class="faq-question">
+                        <span>Can I integrate ADmyBRAND AI Suite with my existing tools?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! We support integration with 50+ popular marketing tools including Google Ads, Facebook Ads, LinkedIn, HubSpot, Salesforce, Mailchimp, and many more. Our API also allows for custom integrations.</p>
+                    </div>
+                </div>
+                <div class="faq-item animate-in">
+                    <button class="faq-question">
+                        <span>Is there a free trial available?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely! We offer a 14-day free trial with full access to all features in the Professional plan. No credit card required to start your trial.</p>
+                    </div>
+                </div>
+                <div class="faq-item animate-in">
+                    <button class="faq-question">
+                        <span>How secure is my data?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We take data security seriously. All data is encrypted in transit and at rest, we're SOC 2 compliant, and we never use your data to train our AI models or share it with third parties.</p>
+                    </div>
+                </div>
+                <div class="faq-item animate-in">
+                    <button class="faq-question">
+                        <span>Can I cancel my subscription at any time?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, you can cancel your subscription at any time. There are no long-term contracts or cancellation fees. Your access will continue until the end of your current billing period.</p>
+                    </div>
+                </div>
+                <div class="faq-item animate-in">
+                    <button class="faq-question">
+                        <span>Do you offer training and onboarding?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! All plans include access to our comprehensive knowledge base, video tutorials, and email support. Professional and Enterprise plans also include priority support and dedicated onboarding sessions.</p>
+                    </div>
+                </div>
+                <div class="faq-item animate-in">
+                    <button class="faq-question">
+                        <span>What makes ADmyBRAND AI Suite different from other marketing tools?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Our platform combines content generation, campaign automation, and analytics in one unified solution. The AI is specifically trained for marketing use cases and learns your brand voice for consistent, high-quality output across all channels.</p>
+                    </div>
+                </div>
+                <div class="faq-item animate-in">
+                    <button class="faq-question">
+                        <span>How many team members can use the platform?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>The Starter plan includes 1 user, Professional supports up to 10 users, and Enterprise offers unlimited users. Additional users can be added to any plan for a small monthly fee.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>ADmyBRAND AI</h3>
+                    <p>Transform your marketing with AI-powered precision. Join thousands of businesses growing with our platform.</p>
+                    <div class="social-links">
+                        <a href="#" target="_blank">LinkedIn</a>
+                        <a href="#" target="_blank">Twitter</a>
+                        <a href="#" target="_blank">Facebook</a>
+                        <a href="#" target="_blank">YouTube</a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Product</h4>
+                        <a href="#features">Features</a>
+                        <a href="#pricing">Pricing</a>
+                        <a href="#">Documentation</a>
+                        <a href="#">API</a>
+                        <a href="#">Integrations</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Resources</h4>
+                        <a href="#">Blog</a>
+                        <a href="#">Case Studies</a>
+                        <a href="#">Help Center</a>
+                        <a href="#">Community</a>
+                        <a href="#">Webinars</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <a href="#">About Us</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Press</a>
+                        <a href="#">Partners</a>
+                        <a href="#">Contact</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">GDPR</a>
+                        <a href="#">Security</a>
+                        <a href="#">Compliance</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-contact">
+                <div class="contact-form glass-card">
+                    <h4>Get Started Today</h4>
+                    <form id="contact-form">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit" class="btn btn--primary">Start Free Trial</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 ADmyBRAND AI Suite. All rights reserved.</p>
+                <p>Made with ❤️ for modern marketers</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Demo Modal -->
+    <div id="demo-modal" class="modal hidden">
+        <div class="modal-overlay"></div>
+        <div class="modal-content glass-card">
+            <button class="modal-close" id="modal-close">&times;</button>
+            <div class="modal-body">
+                <h3>Watch ADmyBRAND AI in Action</h3>
+                <div class="video-placeholder">
+                    <div class="play-button">▶</div>
+                    <p>Demo Video Coming Soon</p>
+                </div>
+                <p>See how leading companies are transforming their marketing with AI-powered automation and insights.</p>
+                <button class="btn btn--primary btn--full-width">Start Your Free Trial</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top hidden">↑</button>
+
+    <script src="app.js"></script>
+</body>
+</html>
